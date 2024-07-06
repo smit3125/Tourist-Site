@@ -1,0 +1,12 @@
+<html>
+
+
+<h1>CART</h1>
+
+<ul>
+    {% for place in cart.places.all %}
+        <li>{{ place.name }} - <a href="{% url 'remove_from_cart' place_pid=place_pid %}">Remove</a></li>
+    {% endfor %}
+</ul>
+
+</html>

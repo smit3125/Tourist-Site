@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static%}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmedabad City Places Blog</title>
+    <link rel="stylesheet" href={% static "styles.css" %}>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Ahmedabad City Places Blog</h1>
+            <p>Discover the beauty of Ahmedabad</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Blog Posts -->
+            <section class="blog-posts">
+                <!-- Single Blog Post -->
+                <div class="blog-post">
+                    <div class="blog-post-image">
+                        <img src="img/background-1.jpg" alt="Post Image">
+                    </div>
+                    <div class="blog-post-info">
+                        <h2>Exploring Sabarmati Ashram</h2>
+                        <p class="post-date">Posted on April 30, 2024</p>
+                        <p class="post-excerpt">Discover the historic Sabarmati Ashram, where Mahatma Gandhi lived and worked during India's freedom struggle.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <!-- Add more blog posts here -->
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ahmedabad City Places Blog</p>
+        </div>
+    </footer>
+</body>
+</html>
